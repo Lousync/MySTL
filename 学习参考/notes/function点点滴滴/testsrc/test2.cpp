@@ -39,4 +39,6 @@ int main()
     std::cout << typeid(plus_obj).name() << std::endl; // 输出类似 "class std::plus..."
 
     return 0;
+
+    auto& tt = typeid(z);
 }
